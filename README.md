@@ -52,7 +52,17 @@ cd offline-rag-demo
 # Open the Jupyter notebook or run the Python script:
 
 jupyter notebook Offline_RAG_Demo.ipynb
-# OR
+Offline_RAG_Demo.ipynb: A Jupyter notebook containing the full pipeline for the offline RAG demo. It includes steps for document chunking, embedding generation, similarity-based retrieval, and optional visualization of results.
+
+Offline_RAG_Demo.py: A Python script version of the notebook that can be run directly without opening Jupyter. This file mirrors the same functionality for offline experimentation.
+
+README.md: The project documentation file that explains the project purpose, features, setup instructions, and usage guidelines.
+
+requirements.txt: A list of all Python libraries required to run the project. It ensures reproducibility and makes it easy to install dependencies.
+
+Sample Documents: A folder containing text or PDF documents used for testing the offline RAG pipeline. These documents serve as the source content for chunking and embedding.
+
+This structure is designed to separate code, documentation, dependencies, and sample data clearly, making the project easy to navigate and use.
 python Offline_RAG_Demo.py
 
 
@@ -73,15 +83,23 @@ Top 3 results:
 - MongoDB is a NoSQL database. (score: 0.791)
 - LangChain enables RAG pipelines and vector memory. (score: 0.764)
 
+This structure is designed to separate code, documentation, dependencies, and sample data clearly, making the project easy to navigate and use.
 
+
+# projectStructure
 Heatmaps display similarity scores for retrieved chunks.
 
-# Project Structure
-offline-rag-demo/
-├── Offline_RAG_Demo.ipynb      # Jupyter notebook with full pipeline
-├── Offline_RAG_Demo.py         # Python script version (optional)
-├── README.md                   # Project documentation
-└── requirements.txt            # Required Python libraries
+Offline_RAG_Demo.ipynb: A Jupyter notebook containing the full pipeline for the offline RAG demo. It includes steps for document chunking, embedding generation, similarity-based retrieval, and optional visualization of results.
+
+Offline_RAG_Demo.py: A Python script version of the notebook that can be run directly without opening Jupyter. This file mirrors the same functionality for offline experimentation.
+
+README.md: The project documentation file that explains the project purpose, features, setup instructions, and usage guidelines.
+
+requirements.txt: A list of all Python libraries required to run the project. It ensures reproducibility and makes it easy to install dependencies.
+
+Sample Documents: A folder containing text or PDF documents used for testing the offline RAG pipeline. These documents serve as the source content for chunking and embedding.
+
+This structure is designed to separate code, documentation, dependencies, and sample data clearly, making the project easy to navigate and use.
 
 # Learning Goals
 
